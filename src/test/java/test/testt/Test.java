@@ -47,7 +47,7 @@ public class Test {
 		//System.out.println("Title of the page is -> " + driver.getTitle());
 		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		try {
-			FileUtils.copyFile(file, new File("C:\\Users\\user\\Desktop\\emm.png"));
+			FileUtils.copyFile(file, new File("C:\\Users\\user\\Desktop\\e.png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 	
