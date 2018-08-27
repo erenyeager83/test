@@ -25,8 +25,7 @@ public class Test {
 		
 		//capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 		capabilities.setCapability("pageLoadStrategy", "none");
-		
-	
+			
 //     chromeOptions.addArguments("--headless");
 //	     chromeOptions.addArguments("window-sized800,600");
 //	     chromeOptions.addArguments("--proxy-server='direct://'");
